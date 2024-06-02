@@ -1,0 +1,16 @@
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size: var(--font-medium);
+    font-family: "MontserratAlternates-Regular";
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.containerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1125px;
+}
