@@ -6,11 +6,12 @@ const Banner = () => {
     <>
     <div className={classes.containerBanner}>
         <div className={classes.containerBannerText}>
-            <p>Поможем вашему ребенку</p>
-            <p>открыть дверь в мир слов</p>
-            <p>Пробное занятие бесплатно</p>
+            <span>Поможем вашему ребенку
+            <br/>открыть дверь в мир слов!</span>
+            <span>Пробное занятие бесплатно</span>
             <ButtonRegistration/>
         </div>
+        <img src="./assets/icons/letter_e_for_girl.svg" alt="letter_e_for_girl" className={classes.logoImg}/>
         <img src="./assets/images/girl_banner.png" alt="girl_banner" className={classes.bannerImg}/>
         </div>
     </>
