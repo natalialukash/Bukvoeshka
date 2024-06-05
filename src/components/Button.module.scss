@@ -1,5 +1,5 @@
 .buttonRegistration{
-    font-family: "MontserratAlternates-Medium";
+    font-family: "MontserratAlternates-Regular";
     font-size: var(--font-medium);
     width: 275px;
     height: 62px;
@@ -7,4 +7,7 @@
     border: 0px;
     background-color: var(--lilac-color);
     color: var(--beige-color);
+}
+.buttonRegistration:hover{
+    font-weight: bold;
 }

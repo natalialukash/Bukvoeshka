@@ -14,10 +14,16 @@
     format('truetype');
 }
 body{
-  --font-x-large: 36px;
+  --font-x-large: 30px;
   --font-medium: 20px;
-  --font-large: 28px;
+  --font-large: 24px;
+  --font-small: 18px;
   --lilac-color: #7C76B5;
   --beige-color: #FFFCEF;
+  --gray-color: #616158;
+  --text-color: #282525;
   --turquoise-color: #33D7CE;
+}
+img{
+  border-radius: 5px;
 }

@@ -10,6 +10,7 @@
   align-items: center;
   font-family: "MontserratAlternates-Regular";
   font-size: var(--font-large);
+  color: var(--text-color);
   margin: 100px 0px 100px 150px;
 }
 .containerBannerText:nth-child(1) {
@@ -23,7 +24,7 @@
 }
 .logoImg {
   position: relative;
-  left: 350px;
+  left: 370px;
   bottom: 50px;
   width: 90px;
 }

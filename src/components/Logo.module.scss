@@ -4,7 +4,11 @@
     display: flex;
     align-items: center;
     height: 100px;
+    color: var(--text-color);
 }
 .imgLogo{
-    width: 42px;
+    width: 30px;
+}
+.containerLogo:hover{
+    font-size: var(--font-large)
 }
