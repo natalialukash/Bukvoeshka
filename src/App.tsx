@@ -1,12 +1,10 @@
-import Header from "./components/Header";
-import Banner from "./components/Banner";
+import Header from "./components/Header/Header";
+import Banner from "./components/Banner/Banner";
 import classes from "./App.module.scss";
 import "../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf";
-import ButtonArrowLeft from "./components/ButtonArrowLeftGray";
-import ProgrammsList from "./components/Programms";
-import AboutUs from "./components/AboutUs";
-import ButtonArrowRightGray from "./components/ButtonArowRightGray"
-import ButtonArrowRightBeige from "./components/ButtonArrowRightBeige";
+import ProgrammsList from "./components/Programms/Programms";
+import AboutUs from "./components/AboutUs/AboutUs";
+
 
 function App() {
   return (
@@ -14,11 +12,8 @@ function App() {
       <div className={classes.App}>Привет </div>
       <Header />
       <Banner />
-      <ButtonArrowLeft />
       <ProgrammsList />
       <AboutUs />
-      <ButtonArrowRightGray/>
-      <ButtonArrowRightBeige/>
     </>
   );
 }

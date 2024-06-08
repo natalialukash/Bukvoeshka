@@ -1,4 +1,4 @@
-import ButtonRegistration from "./ButtonRegistration";
+import ButtonRegistration from "../Buttons/ButtonRegistration";
 import classes from "./Banner.module.scss";
 
 const Banner = () => {
