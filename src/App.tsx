@@ -3,7 +3,8 @@ import Banner from "./components/Banner/Banner";
 import classes from "./App.module.scss";
 import "../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf";
 import ProgrammsList from "./components/Programms/Programms";
-import AboutUs from "./components/AboutUs/AboutUs";
+import AboutUs from "./components/AboutUsBlock/AboutUsBlock";
+import TeachersBlock from "./components/TeachersBlock/TeachersBlock";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <ProgrammsList />
       <AboutUs />
+      <TeachersBlock/>
     </>
   );
 }

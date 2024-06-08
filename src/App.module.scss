@@ -13,6 +13,11 @@
   src: url("../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf")
     format('truetype');
 }
+@font-face {
+  font-family: "MontserratAlternates-Light";
+  src: url("../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf")
+    format('truetype');
+}
 body{
   --font-x-large: 30px;
   --font-medium: 20px;
@@ -26,4 +31,7 @@ body{
 }
 img{
   border-radius: 5px;
+}
+button{
+  cursor: pointer;
 }
