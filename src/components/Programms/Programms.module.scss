@@ -1,9 +1,9 @@
 .programm_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 150px;
-    margin-bottom: 70px;
-    align-items: center;
+    column-gap:30px;
+    justify-items: center;
+    margin: 0px 150px 70px 150px;
     font-family: "MontserratAlternates-Regular";
 }
 .programmgroup_container{
@@ -16,12 +16,5 @@ div span{
 }
 
 .h2{
-    font-weight: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 140px;
-}
-.img{
-    border-radius: 35px;
 }

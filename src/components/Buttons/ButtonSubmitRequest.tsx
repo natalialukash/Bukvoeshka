@@ -1,7 +1,8 @@
+import classes from "./Button.module.scss"
 const ButtonSubmitRequest = () => {
     return (
       <>
-        <button>Оставить заявку на пробное занятие</button>
+        <button className={classes.buttonSubmitRequest}>Оставить заявку на пробное занятие</button>
       </>
     );
   };

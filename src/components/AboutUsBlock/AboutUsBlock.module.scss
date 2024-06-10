@@ -8,9 +8,6 @@
     margin-left: 150px;
     margin-top: 30px;
 }
-.container_text{
-    width: 658px;
-}
 .containerButtonLeft{
 margin-top: 304px;
 }
@@ -23,10 +20,6 @@ margin-top: 304px;
     margin-left: 30px;
     margin-right: 30px;
 }
-.h2{
-    font-family: "MontserratAlternates-Regular";
-    font-weight: normal;
-}
 .containerText{
     margin-top: 76px;
 }
@@ -38,3 +31,9 @@ font-size: var(--font-medium);
     font-family: "MontserratAlternates-Light";
     font-size: var(--font-small);
     }
+    .containerButtonSubmitRequest{
+        margin-top: 106px;
+    }
+.h2{
+    justify-content: left;
+}

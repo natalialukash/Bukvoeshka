@@ -1,0 +1,36 @@
+.containerContactsBlock{
+    height: 946px;
+    background-color: var(--turquoise-color);
+    padding-top: 70px;
+}
+.containerContacts{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 334px 0 150px;
+    column-gap: 166px;
+}
+iframe{
+    border: 0px;
+    border-radius: 5px;
+}
+.containerContact{
+    display: flex;
+    column-gap: 52px;
+    margin-bottom: 22px;
+}
+.containerContact :first-child{
+    align-self: center;
+}
+
+.containerText{
+    font-family: "MontserratAlternates-Regular";
+    font-size: var(--font-medium);
+}
+.containerText :first-child{
+    color: var(--gray-color);
+}
+.containerIcon{
+    margin-right: 52px;
+    margin-top: 30px;
+}
+

@@ -1,7 +1,9 @@
+import classes from "./Button.module.scss"
+
 const ButtonSend = () => {
     return (
       <>
-        <button>Отправить</button>
+        <button type="submit" className={classes.buttonSend}>Отправить</button>
       </>
     );
   };

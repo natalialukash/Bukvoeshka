@@ -1,16 +1,43 @@
-.buttonRegistration{
-    font-family: "MontserratAlternates-Regular";
-    font-size: var(--font-medium);
-    width: 275px;
-    height: 62px;
-    border-radius: 50px;
-    border: 0px;
-    background: var(--lilac-color);
-    color: var(--beige-color);
+.buttonRegistration,
+.buttonSubmitRequest,
+.buttonSend {
+  font-family: "MontserratAlternates-Regular";
+  font-size: var(--font-medium);
+  height: 62px;
+  border-radius: 50px;
+  border: 0px;
 }
-.buttonRegistration:hover{
-    background: var(--beige-color);
+.buttonRegistration {
+  width: 275px;
+  background: var(--lilac-color);
+  color: var(--beige-color);
+}
+.buttonSend{
+    width: 520px;
+    background: var(--lilac-color);
+    color: var(--beige-color); 
+}
+.buttonSubmitRequest {
+  width: 515px;
+  background: var(--turquoise-color);
+  color: var(--text-color);
+}
+.buttonRegistration:hover,
+.buttonSubmitRequest:hover,
+.buttonSend {
+  border: 2px solid;
+}
+.buttonRegistration:hover,
+.buttonSend:hover {
+  background: white;
+  color: var(--lilac-color);
+  border-color: var(--lilac-color);
+  font-weight: bold;
+}
+
+.buttonSubmitRequest:hover {
+  background: var(--beige-color);
     color: var(--lilac-color);
-    border: 2px solid;
-    border-color: var(--lilac-color);
+  border-color: var(--turquoise-color);
+  font-weight: bold;
 }

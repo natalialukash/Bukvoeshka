@@ -1,37 +1,45 @@
 @font-face {
   font-family: "MontserratAlternates-Medium";
   src: url("../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf")
-    format('truetype');
+    format("truetype");
 }
 @font-face {
   font-family: "MontserratAlternates-Regular";
   src: url("../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf")
-    format('truetype');
+    format("truetype");
 }
 @font-face {
   font-family: "MontserratAlternates-Bold";
   src: url("../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf")
-    format('truetype');
+    format("truetype");
 }
 @font-face {
   font-family: "MontserratAlternates-Light";
   src: url("../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf")
-    format('truetype');
+    format("truetype");
 }
-body{
+body {
   --font-x-large: 30px;
   --font-medium: 20px;
   --font-large: 24px;
   --font-small: 18px;
-  --lilac-color: #7C76B5;
-  --beige-color: #FFFCEF;
+  --lilac-color: #7c76b5;
+  --beige-color: #fffcef;
   --gray-color: #616158;
   --text-color: #282525;
-  --turquoise-color: #33D7CE;
+  --turquoise-color: #33d7ce;
+  color: var(--text-color);
 }
-img{
+img {
   border-radius: 5px;
 }
-button{
+button {
   cursor: pointer;
+}
+h2 {
+  font-weight: normal;
+  font-family: "MontserratAlternates-Regular";
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

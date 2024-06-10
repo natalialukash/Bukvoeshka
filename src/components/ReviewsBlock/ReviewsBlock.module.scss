@@ -1,0 +1,15 @@
+.containerReviews {
+  border-radius: 100%;
+  width: 1345px;
+  height: 630px;
+  border: 0px;
+  background-color: var(--lilac-color);
+}
+.containerIcon {
+  width: 28px;
+  height: 28px;
+}
+.containerReview {
+  display: flex;
+  justify-content: space-around;
+}

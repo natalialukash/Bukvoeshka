@@ -1,5 +1,6 @@
 import ButtonArrowLeftBeige from "../Buttons/ButtonArrowLeftBeige";
 import ButtonArrowRightBeige from "../Buttons/ButtonArrowRightBeige";
+import ButtonSubmitRequest from "../Buttons/ButtonSubmitRequest";
 import classes from "./AboutUsBlock.module.scss";
 
 const AboutUsBlock = () => {
@@ -30,9 +31,11 @@ const AboutUsBlock = () => {
         <div className={classes.containerAboutUsText}>
           <h2 className={classes.h2}>О нас</h2>
           <div>{aboutUsList}</div>
+          <div className={classes.containerButtonSubmitRequest}><ButtonSubmitRequest/></div>
         </div>
         <div className={classes.containerButtonRight}><ButtonArrowRightBeige/></div>
       </div>
+      
     </>
   );
 };

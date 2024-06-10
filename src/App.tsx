@@ -5,6 +5,9 @@ import "../public/assets/fonts/Montserrat_Alternates/MontserratAlternates-Medium
 import ProgrammsList from "./components/Programms/Programms";
 import AboutUs from "./components/AboutUsBlock/AboutUsBlock";
 import TeachersBlock from "./components/TeachersBlock/TeachersBlock";
+import FormBlock from "./components/FormBlock/FormBlock";
+import ContactsBlock from "./components/ContactsBlock/ContactsBlock";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
       <ProgrammsList />
       <AboutUs />
       <TeachersBlock/>
+      <FormBlock/>
+      <ContactsBlock/>
+      <Footer />
     </>
   );
 }

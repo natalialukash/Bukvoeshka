@@ -26,7 +26,7 @@ const TeachersBlock = () => {
   const teachersList = teachers.map((teachers) => {
     return (
       <div key={teachers.id} className={classes.containerTeacher}>
-        <img src={`${teachers.imageUrl}`} width={382} height={502}></img>
+        <img src={`${teachers.imageUrl}`} alt="teachers_photo"></img>
         <span>{teachers.name}</span>
         <span>{teachers.position}</span>
       </div>
@@ -34,9 +34,18 @@ const TeachersBlock = () => {
   });
   return (
     <>
-      <div className={classes.containerButtonLeft}><ButtonArrowLeftGray/></div>
-      <div className={classes.containerTeachers}>{teachersList}</div>
-      <div className={classes.containerButtonRight}><ButtonArrowRightGray/></div>
+      <div>
+        <h2 className={classes.h2}>Преподаватели</h2>
+      </div>
+      <div className={classes.containerTeachersBlock}>
+        <div className={classes.containerButtonLeft}>
+          <ButtonArrowLeftGray />
+        </div>
+        <div className={classes.containerTeachers}>{teachersList}</div>
+        <div className={classes.containerButtonRight}>
+          <ButtonArrowRightGray />
+        </div>
+      </div>
     </>
   );
 };

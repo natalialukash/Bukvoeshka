@@ -37,7 +37,7 @@
 .rightArrowGray::before {
   top: 8px;
   width: 24px;
-  height: 3px;
+  height: 2px;
   background-color: var(--beige-color);
   border-radius: 2px;
 }
@@ -45,7 +45,7 @@
 .rightArrowBeige::before {
   top: 8px;
   width: 24px;
-  height: 3px;
+  height: 2px;
   background-color: var(--gray-color);
   border-radius: 2px;
 }
@@ -54,7 +54,7 @@
 .rightArrowGray::after,
 .leftArrowBeige::after,
 .rightArrowBeige::after {
-  width: 12px;
+  width: 11px;
   height: 12px;
   top: 2px;
   border-radius: 2px;

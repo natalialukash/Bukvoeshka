@@ -1,0 +1,29 @@
+.containerFormBlock{
+ padding-top: 70px;
+}
+.containerForm{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 288px;
+    margin-right: 150px;
+    height: 559px;
+}
+.form{
+    margin-top: 109px;
+}
+.form1{
+margin-bottom: 70px;
+}
+.form :last-child{
+font-family: "MontserratAlternates-Regular";
+font-size: var(--font-medium);
+}
+.containerFormh2 :nth-child(2){
+font-family: "MontserratAlternates-Regular";
+
+display: flex;
+justify-content: center;
+}
+.formImg{
+position: relative;
+}

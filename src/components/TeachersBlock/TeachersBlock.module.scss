@@ -1,4 +1,37 @@
-.containerTeacher{
-    display: flex;
-    justify-content: space-around;
+.containerTeachersBlock {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 70px;
+}
+
+.containerTeachers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 130px;
+}
+.containerTeacher {
+  display: grid;
+  justify-content: left;
+  font-size: var(--font-medium);
+  font-family: "MontserratAlternates-Regular";
+  height: 610px;
+}
+.containerTeacher :nth-child(2) {
+  font-weight: bold;
+}
+.containerButtonLeft,
+.containerButtonRight {
+  margin-top: 222px;
+}
+.containerButtonLeft {
+  margin-left: 150px;
+  margin-right: 50px;
+}
+.containerButtonRight {
+  margin-right: 150px;
+  margin-left: 50px;
+}
+.h2 {
+  height: 140px;
 }
