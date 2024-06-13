@@ -1,11 +1,12 @@
+@import "../../App.module.scss";
 .formControl{
     font-family: "MontserratAlternates-Regular";
-    font-size: var(--font-medium);
+    font-size: $font-medium;
     width: 520px;
     height: 62px;
     border-radius: 50px;
     box-sizing: border-box;
-    border: 1px solid var(--gray-color);
+    border: 1px solid $gray-color;
     padding-left: 36px;
     margin-bottom: 30px;
 }

@@ -46,14 +46,16 @@ const ReviewsBlock = () => {
   });
   return (
     <>
-      <div>
-        <h2>Отзывы родителей</h2>
-      </div>
-      <div className={classes.containerReviews}>
-        <ButtonArrowLeftBeige />
-        <div className={classes.containerReview}>{reviewsList}</div>
-        <ButtonArrowRightBeige />
-      </div>
+      <section>
+        <div>
+          <h2>Отзывы родителей</h2>
+        </div>
+        <div className={classes.containerReviews}>
+          <ButtonArrowLeftBeige />
+          <div className={classes.containerReview}>{reviewsList}</div>
+          <ButtonArrowRightBeige />
+        </div>
+      </section>
     </>
   );
 };

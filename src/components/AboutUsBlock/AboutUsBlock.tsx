@@ -21,7 +21,7 @@ const AboutUsBlock = () => {
   });
   return (
     <>
-      <div className={classes.containerAboutUs}>
+      <section className={classes.containerAboutUs}>
         <img
           className={classes.aboutUsImg}
           src="./assets/images/girl_about_us.png"
@@ -34,7 +34,7 @@ const AboutUsBlock = () => {
           <div className={classes.containerButtonSubmitRequest}><ButtonSubmitRequest/></div>
         </div>
         <div className={classes.containerButtonRight}><ButtonArrowRightBeige/></div>
-      </div>
+      </section>
       
     </>
   );

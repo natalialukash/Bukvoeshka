@@ -1,6 +1,8 @@
+@import "../../App.module";
+
 .containerAboutUs{
     height: 692px;
-    background-color: var(--lilac-color);
+    background-color: $lilac-color;
     display: flex;
     justify-content: space-around;
 }
@@ -25,11 +27,11 @@ margin-top: 304px;
 }
 .containerText :first-child{
 font-family: "MontserratAlternates-Regular";
-font-size: var(--font-medium);
+font-size: $font-medium;
 }
 .containerText :last-child{
     font-family: "MontserratAlternates-Light";
-    font-size: var(--font-small);
+    font-size: $font-small;
     }
     .containerButtonSubmitRequest{
         margin-top: 106px;

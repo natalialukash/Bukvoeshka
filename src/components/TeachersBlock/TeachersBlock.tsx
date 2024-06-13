@@ -34,6 +34,7 @@ const TeachersBlock = () => {
   });
   return (
     <>
+    <section>
       <div>
         <h2 className={classes.h2}>Преподаватели</h2>
       </div>
@@ -46,6 +47,7 @@ const TeachersBlock = () => {
           <ButtonArrowRightGray />
         </div>
       </div>
+      </section>  
     </>
   );
 };

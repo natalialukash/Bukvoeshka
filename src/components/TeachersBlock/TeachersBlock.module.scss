@@ -1,3 +1,5 @@
+@import "../../App.module.scss";
+
 .containerTeachersBlock {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -13,7 +15,7 @@
 .containerTeacher {
   display: grid;
   justify-content: left;
-  font-size: var(--font-medium);
+  font-size: $font-medium;
   font-family: "MontserratAlternates-Regular";
   height: 610px;
 }

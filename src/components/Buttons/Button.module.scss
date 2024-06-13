@@ -1,26 +1,28 @@
+@import "../../App.module.scss";
+
 .buttonRegistration,
 .buttonSubmitRequest,
 .buttonSend {
   font-family: "MontserratAlternates-Regular";
-  font-size: var(--font-medium);
+  font-size: $font-medium;
   height: 62px;
   border-radius: 50px;
   border: 0px;
 }
 .buttonRegistration {
   width: 275px;
-  background: var(--lilac-color);
-  color: var(--beige-color);
+  background: $lilac-color;
+  color: $beige-color;
 }
 .buttonSend{
     width: 520px;
-    background: var(--lilac-color);
-    color: var(--beige-color); 
+    background: $lilac-color;
+    color: $beige-color; 
 }
 .buttonSubmitRequest {
   width: 515px;
-  background: var(--turquoise-color);
-  color: var(--text-color);
+  background: $turquoise-color;
+  color: $text-color;
 }
 .buttonRegistration:hover,
 .buttonSubmitRequest:hover,
@@ -30,14 +32,14 @@
 .buttonRegistration:hover,
 .buttonSend:hover {
   background: white;
-  color: var(--lilac-color);
-  border-color: var(--lilac-color);
+  color: $lilac-color;
+  border-color: $lilac-color;
   font-weight: bold;
 }
 
 .buttonSubmitRequest:hover {
-  background: var(--beige-color);
-    color: var(--lilac-color);
-  border-color: var(--turquoise-color);
+  background: $beige-color;
+    color: $lilac-color;
+  border-color: $turquoise-color;
   font-weight: bold;
 }

@@ -60,7 +60,7 @@ const ProgrammsList = () => {
       </div>
     );
   });
-  return <div className={classes.programm_container}>{programmList}</div>;
+  return <section className={classes.programm_container}>{programmList}</section>;
 };
 
 export default ProgrammsList;

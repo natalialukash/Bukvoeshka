@@ -1,6 +1,7 @@
+@import "../../App.module.scss";
 .containerContactsBlock{
     height: 946px;
-    background-color: var(--turquoise-color);
+    background-color: $turquoise-color;
     padding-top: 70px;
 }
 .containerContacts{
@@ -24,10 +25,10 @@ iframe{
 
 .containerText{
     font-family: "MontserratAlternates-Regular";
-    font-size: var(--font-medium);
+    font-size: $font-medium;
 }
 .containerText :first-child{
-    color: var(--gray-color);
+    color: $gray-color;
 }
 .containerIcon{
     margin-right: 52px;

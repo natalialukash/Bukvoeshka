@@ -1,10 +1,12 @@
+@import "../../App.module.scss";
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    font-size: var(--font-medium);
-    color: var(--text-color);
+    font-size: $font-medium;
+    color: $text-color;
     font-family: "MontserratAlternates-Regular";
     margin-left: 150px;
     margin-right: 150px;

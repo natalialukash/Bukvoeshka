@@ -1,14 +1,16 @@
+@import "../../App.module.scss";
+
 .containerLogo{
     font-family: "MontserratAlternates-Bold";
-    font-size: var(--font-x-large);
+    font-size: $font-x-large;
     display: flex;
     align-items: center;
     height: 100px;
-    color: var(--text-color);
+    color: $text-color;
 }
 .imgLogo{
     width: 30px;
 }
 .containerLogo:hover{
-    font-size: var(--font-large)
+    font-size: $font-large;
 }

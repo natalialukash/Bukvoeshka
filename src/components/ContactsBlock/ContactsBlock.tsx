@@ -3,7 +3,7 @@ import classes from "./ContactsBlock.module.scss";
 const ContactsBlock = () => {
   return (
     <>
-      <div className={classes.containerContactsBlock}>
+      <section className={classes.containerContactsBlock}>
         <div>
           <h2>Наши контакты</h2>
         </div>
@@ -62,7 +62,7 @@ const ContactsBlock = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

@@ -1,16 +1,18 @@
+@import "../../App.module.scss";
+
 .circleGray {
   border-radius: 100%;
   width: 58px;
   height: 58px;
   border: 0px;
-  background-color: var(--gray-color);
+  background-color: $gray-color;
 }
 .circleBeige {
   border-radius: 100%;
   width: 58px;
   height: 58px;
   border: 0px;
-  background-color: var(--beige-color);
+  background-color: $beige-color;
 }
 .leftArrowGray,
 .rightArrowGray,
@@ -38,7 +40,7 @@
   top: 8px;
   width: 24px;
   height: 2px;
-  background-color: var(--beige-color);
+  background-color: $beige-color;
   border-radius: 2px;
 }
 .leftArrowBeige::before,
@@ -46,7 +48,7 @@
   top: 8px;
   width: 24px;
   height: 2px;
-  background-color: var(--gray-color);
+  background-color: $gray-color;
   border-radius: 2px;
 }
 
@@ -62,27 +64,27 @@
 
 .leftArrowGray::after {
   left: 0;
-  border-top: 3px solid var(--beige-color);
-  border-left: 3px solid var(--beige-color);
+  border-top: 3px solid $beige-color;
+  border-left: 3px solid $beige-color;
   transform: rotate(-45deg);
 }
 .leftArrowBeige::after {
   left: 0;
-  border-top: 3px solid var(--gray-color);
-  border-left: 3px solid var(--gray-color);
+  border-top: 3px solid $gray-color;
+  border-left: 3px solid $gray-color;
   transform: rotate(-45deg);
 }
 
 .rightArrowGray::after {
   left: 10px;
-  border-top: 3px solid var(--beige-color);
-  border-right: 3px solid var(--beige-color);
+  border-top: 3px solid $beige-color;
+  border-right: 3px solid $beige-color;
   transform: rotate(45deg);
 }
 .rightArrowBeige::after {
   left: 10px;
-  border-top: 3px solid var(--gray-color);
-  border-right: 3px solid var(--gray-color);
+  border-top: 3px solid $gray-color;
+  border-right: 3px solid $gray-color;
   transform: rotate(45deg);
 }
 
@@ -90,17 +92,17 @@
 .rightArrowGray:hover::before,
 .leftArrowBeige:hover::before,
 .rightArrowBeige:hover::before {
-  background-color: var(--text-color);
+  background-color: $text-color;
 }
 
 .leftArrowGray:hover::after,
 .leftArrowBeige:hover::after {
-  border-top: 3px solid var(--text-color);
-  border-left: 3px solid var(--text-color);
+  border-top: 3px solid $text-color;
+  border-left: 3px solid $text-color;
 }
 
 .rightArrowGray:hover::after,
 .rightArrowBeige:hover::after {
-  border-top: 3px solid var(--text-color);
-  border-right: 3px solid var(--text-color);
+  border-top: 3px solid $text-color;
+  border-right: 3px solid $text-color;
 }

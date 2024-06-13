@@ -1,9 +1,10 @@
+@import "../../App.module.scss";
 .containerReviews {
   border-radius: 100%;
   width: 1345px;
   height: 630px;
   border: 0px;
-  background-color: var(--lilac-color);
+  background-color: $lilac-color;
 }
 .containerIcon {
   width: 28px;

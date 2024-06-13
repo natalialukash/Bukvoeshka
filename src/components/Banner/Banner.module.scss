@@ -1,16 +1,18 @@
+@import "../../App.module.scss";
+
 .containerBanner {
   display: flex;
   justify-content: space-between;
   height: 600px;
-  background-color: var(--turquoise-color);
+  background-color: $turquoise-color;
 }
 .containerBannerText {
   display: grid;
   grid-template-rows: fit-content(84px) 1fr fit-content(62px);
   align-items: center;
   font-family: "MontserratAlternates-Regular";
-  font-size: var(--font-large);
-  color: var(--text-color);
+  font-size: $font-large;
+  color: $text-color;
   margin: 100px 0px 100px 150px;
 }
 .containerBannerText:nth-child(1) {
