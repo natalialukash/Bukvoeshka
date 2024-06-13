@@ -1,31 +1,35 @@
 @import "../../App.module.scss";
+.containerFormh2 {
+  h2 {
+    padding-top: 70px;
+  }
+  p {
+    font-family: "MontserratAlternates-Regular";
 
-.containerFormBlock{
- padding-top: 70px;
-}
-.containerForm{
     display: flex;
-    justify-content: space-around;
-    margin-left: 288px;
-    margin-right: 150px;
-    height: 559px;
+    justify-content: center;
+  }
 }
-.form{
-    margin-top: 109px;
-}
-.form1{
-margin-bottom: 70px;
-}
-.form :last-child{
-font-family: "MontserratAlternates-Regular";
-font-size: $font-medium;
-}
-.containerFormh2 :nth-child(2){
-font-family: "MontserratAlternates-Regular";
+.containerForm {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 288px;
+  height: 550px;
 
-display: flex;
-justify-content: center;
-}
-.formImg{
-position: relative;
+  .form {
+    margin-top: 109px;
+    p {
+      text-decoration: underline;
+      font-family: "MontserratAlternates-Regular";
+      font-size: $font-medium;
+    }
+    .form1 {
+      margin-bottom: 70px;
+    }
+  }
+  .formImg {
+    position: relative;
+    background-image: url(../../../public/assets/images/boy_form.png);
+    width: 695px;
+  }
 }

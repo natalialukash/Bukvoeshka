@@ -5,28 +5,25 @@
   justify-content: space-between;
   height: 600px;
   background-color: $turquoise-color;
-}
-.containerBannerText {
-  display: grid;
-  grid-template-rows: fit-content(84px) 1fr fit-content(62px);
-  align-items: center;
-  font-family: "MontserratAlternates-Regular";
-  font-size: $font-large;
-  color: $text-color;
-  margin: 100px 0px 100px 150px;
-}
-.containerBannerText:nth-child(1) {
-  line-height: 150%;
+  .containerBannerText {
+    display: grid;
+    grid-template-rows: fit-content(84px) 1fr fit-content(62px);
+    align-items: center;
+    font-family: "MontserratAlternates-Regular";
+    font-size: $font-large;
+    color: $text-color;
+    margin: 100px 0px 100px 150px;
+    line-height: 150%;
+  }
 }
 .bannerImg {
+  background-image: url(../../../public/assets/images/girl_banner.png);
   width: 800px;
-  height: 534px;
   margin-top: 66px;
-  margin-right: 257px;
-}
-.logoImg {
-  position: relative;
-  left: 370px;
-  bottom: 50px;
-  width: 90px;
+  img{
+      position: relative;
+      left: 200px;
+      top: 140px;
+      width: 90px;  
+  }
 }

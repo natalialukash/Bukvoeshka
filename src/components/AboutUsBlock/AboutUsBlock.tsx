@@ -22,20 +22,21 @@ const AboutUsBlock = () => {
   return (
     <>
       <section className={classes.containerAboutUs}>
-        <img
-          className={classes.aboutUsImg}
-          src="./assets/images/girl_about_us.png"
-          alt="girl_aboutUs"
-        />
-        <div className={classes.containerButtonLeft}><ButtonArrowLeftBeige/></div>
-        <div className={classes.containerAboutUsText}>
-          <h2 className={classes.h2}>О нас</h2>
-          <div>{aboutUsList}</div>
-          <div className={classes.containerButtonSubmitRequest}><ButtonSubmitRequest/></div>
+        <div className={classes.aboutUsImg}></div>
+        <div className={classes.containerButtonLeft}>
+          <ButtonArrowLeftBeige />
         </div>
-        <div className={classes.containerButtonRight}><ButtonArrowRightBeige/></div>
+        <div className={classes.containerAboutUsText}>
+          <h2>О нас</h2>
+          <div>{aboutUsList}</div>
+          <div className={classes.containerButtonSubmitRequest}>
+            <ButtonSubmitRequest />
+          </div>
+        </div>
+        <div className={classes.containerButtonRight}>
+          <ButtonArrowRightBeige />
+        </div>
       </section>
-      
     </>
   );
 };

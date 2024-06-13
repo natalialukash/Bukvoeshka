@@ -27,22 +27,20 @@ const TeachersBlock = () => {
     return (
       <div key={teachers.id} className={classes.containerTeacher}>
         <img src={`${teachers.imageUrl}`} alt="teachers_photo"></img>
-        <span>{teachers.name}</span>
+        <p>{teachers.name}</p>
         <span>{teachers.position}</span>
       </div>
     );
   });
   return (
     <>
-    <section>
-      <div>
-        <h2 className={classes.h2}>Преподаватели</h2>
-      </div>
+    <section className={classes.containerTeachers}>
+        <h2>Преподаватели</h2>
       <div className={classes.containerTeachersBlock}>
         <div className={classes.containerButtonLeft}>
           <ButtonArrowLeftGray />
         </div>
-        <div className={classes.containerTeachers}>{teachersList}</div>
+        <div className={classes.containerTeachersList}>{teachersList}</div>
         <div className={classes.containerButtonRight}>
           <ButtonArrowRightGray />
         </div>

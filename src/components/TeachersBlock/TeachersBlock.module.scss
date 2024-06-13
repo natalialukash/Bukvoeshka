@@ -1,28 +1,15 @@
 @import "../../App.module.scss";
-
+.containerTeachers{
+  h2 {
+    height: 140px;
+  }
+}
 .containerTeachersBlock {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 70px;
-}
-
-.containerTeachers {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 130px;
-}
-.containerTeacher {
-  display: grid;
-  justify-content: left;
-  font-size: $font-medium;
-  font-family: "MontserratAlternates-Regular";
-  height: 610px;
-}
-.containerTeacher :nth-child(2) {
-  font-weight: bold;
-}
-.containerButtonLeft,
+  .containerButtonLeft,
 .containerButtonRight {
   margin-top: 222px;
 }
@@ -34,6 +21,19 @@
   margin-right: 150px;
   margin-left: 50px;
 }
-.h2 {
-  height: 140px;
+.containerTeachersList {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 130px;
+}
+.containerTeacher {
+  display: grid;
+  justify-content: left;
+  font-size: $font-medium;
+  font-family: "MontserratAlternates-Regular";
+  height: 610px;
+  p {
+    font-weight: bold;
+  }
+}
 }

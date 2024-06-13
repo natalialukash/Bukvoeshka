@@ -11,8 +11,7 @@ const Banner = () => {
             <span>Пробное занятие бесплатно</span>
             <ButtonRegistration/>
         </div>
-        <img src="./assets/icons/letter_e_for_girl.svg" alt="letter_e_for_girl" className={classes.logoImg}/>
-        <img src="./assets/images/girl_banner.png" alt="girl_banner" className={classes.bannerImg}/>
+        <div className={classes.bannerImg}><img src="../../../public/assets/icons/letter_e_for_girl.svg" alt="letter_e_for_girl" /></div>
         </section>
     </>
   );

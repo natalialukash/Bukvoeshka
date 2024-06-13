@@ -54,7 +54,7 @@ const ProgrammsList = () => {
   const programmList = programmGroup.map((programmGroup) => {
     return (
       <div key={programmGroup.id} className={classes.programmgroup_container}>
-        <h2 className={classes.h2}>{programmGroup.h2}</h2>
+        <h2>{programmGroup.h2}</h2>
         <img src={`${programmGroup.imageUrl}`} width={520} height={360}></img>
         <span>{programmGroup.name}</span>
       </div>

@@ -12,11 +12,10 @@
     display: grid;
     justify-content: left;
     font-size: $font-medium;
-}
-div span{
-    margin-top: 30px;
-}
-
-.h2{
-    height: 140px;
+    h2{
+        height: 140px;
+    }
+    span{
+        margin-top: 30px;
+    }
 }

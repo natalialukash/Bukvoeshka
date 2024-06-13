@@ -16,9 +16,9 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 1125px;
-}
-.aboutUs:hover, .programms:hover, .teachers:hover, .reviews:hover, .contacts:hover, .telephone:hover{
-    font-weight: bold;
-    text-decoration: underline;
-    cursor: pointer;
+    div:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        cursor: pointer;
+    }
 }
