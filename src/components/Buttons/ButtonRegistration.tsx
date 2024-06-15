@@ -1,11 +1,10 @@
-import FormBlock from '../FormBlock/FormBlock';
 import classes from './Button.module.scss'
 
 
 const ButtonRegistration = () => {
   return (
     <>
-      <button className={classes.buttonRegistration}>Записаться</button>
+      <button className={classes.buttonRegistration}><a href="#formBlock">Записаться</a></button>
     </>
   );
 };

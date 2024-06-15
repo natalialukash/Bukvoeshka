@@ -27,8 +27,15 @@ $beige-color: #fffcef;
 $gray-color: #616158;
 $text-color: #282525;
 $turquoise-color: #33d7ce;
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: $text-color;
+  user-select: none;
+}
+a {
+  all: unset;
 }
 img {
   border-radius: 5px;

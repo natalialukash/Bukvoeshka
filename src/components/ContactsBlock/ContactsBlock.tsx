@@ -53,11 +53,11 @@ const ContactsBlock = () => {
               </div>
             </div>
             <div>
-              <div className={classes.containerText}>Связаться с нами в социальных сетях</div>
-              <div>
-                <img className={classes.containerIcon} src="./assets/icons/telegram.svg" alt="telegram" />
-                <img className={classes.containerIcon} src="./assets/icons/instagram.svg" alt="telegram" />
-                <img className={classes.containerIcon} src="./assets/icons/whatsup.svg" alt="telegram" />
+              <div className={classes.containerText}><span>Связаться с нами в социальных сетях:</span></div>
+              <div className={classes.containerIcon}>
+                <img src="./assets/icons/telegram.svg" alt="telegram" />
+                <img src="./assets/icons/instagram.svg" alt="telegram" />
+                <img src="./assets/icons/whatsup.svg" alt="telegram" />
               </div>
             </div>
           </div>

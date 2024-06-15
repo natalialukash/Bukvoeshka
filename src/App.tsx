@@ -9,17 +9,16 @@ import FormBlock from "./components/FormBlock/FormBlock";
 import ContactsBlock from "./components/ContactsBlock/ContactsBlock";
 import Footer from "./components/Footer/Footer";
 
-
 function App() {
   return (
     <>
       <Header />
       <Banner />
-      <ProgrammsList />
-      <AboutUs />
-      <TeachersBlock/>
-      <FormBlock/>
-      <ContactsBlock/>
+      <div id="programmsList"><ProgrammsList /></div>
+      <div id="aboutUs"><AboutUs /></div>
+      <div id="teachersBlock"><TeachersBlock /></div>
+      <div id="formBlock"><FormBlock /></div>
+      <div id="contactsBlock"><ContactsBlock /></div>
       <Footer />
     </>
   );

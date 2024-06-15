@@ -11,7 +11,7 @@ const Footer = () => {
             1657779723{" "}
           </p>
         </div>
-        <div className={classes.containerFooterLaw}>
+        <div>
           <p>Все права защищены © 2024</p>
         </div>
       </footer>
