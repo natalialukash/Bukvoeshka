@@ -1,9 +1,10 @@
+import { Link } from "react-scroll";
 import classes from "./Button.module.scss";
 const ButtonSubmitRequest = () => {
   return (
     <>
       <button className={classes.buttonSubmitRequest}>
-        <a href="#formBlock">Оставить заявку на пробное занятие</a>
+        <Link to="formBlock">Оставить заявку на пробное занятие</Link>
       </button>
     </>
   );

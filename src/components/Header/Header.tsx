@@ -1,6 +1,6 @@
 import Logo from "../Logo/Logo";
 import classes from "./Header.module.scss";
-
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -10,11 +10,21 @@ const Header = () => {
           <Logo />
         </div>
         <div className={classes.containerNav}>
-          <div><a href="#aboutUs">О нас</a></div>
-          <div><a href="#programmsList">Программы</a></div>
-          <div><a href="#teachersBlock">Преподаватели</a></div>
-          <div><a href="#reviewsBlock">Отзывы</a></div>
-          <div><a href="#contactsBlock">Контакты</a></div>
+          <div>
+            <Link to="aboutUs">О нас</Link>
+          </div>
+          <div>
+            <Link to="programmsList">Программы</Link>
+          </div>
+          <div>
+            <Link to="teachersBlock">Преподаватели</Link>
+          </div>
+          <div>
+            <Link to="reviewsBlock">Отзывы</Link>
+          </div>
+          <div>
+            <Link to="contactsBlock">Контакты</Link>
+          </div>
           <div>+7(499) 377-37-37</div>
         </div>
       </header>

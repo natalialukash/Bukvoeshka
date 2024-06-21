@@ -5,35 +5,23 @@
   }
 }
 .containerTeachersBlock {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  margin-bottom: 70px;
-  .containerButtonLeft,
-.containerButtonRight {
-  margin-top: 222px;
-}
-.containerButtonLeft {
-  margin-left: 150px;
-  margin-right: 50px;
-}
-.containerButtonRight {
-  margin-right: 150px;
-  margin-left: 50px;
+  margin: 0 100px 70px 100px;
 }
 .containerTeachersList {
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 130px;
 }
 .containerTeacher {
   display: grid;
-  justify-content: left;
   font-size: $font-medium;
   font-family: "MontserratAlternates-Regular";
   height: 610px;
   p {
     font-weight: bold;
   }
-}
+  img{
+    margin-bottom: 20px;
+  };
 }
