@@ -11,6 +11,7 @@
     margin-left: 150px;
     margin-top: 30px;
   }
+
   .containerAboutUsText {
     color: $beige-color;
     margin: 100px 250px 0px 0px;
@@ -30,9 +31,24 @@
         font-size: $font-small;
       }
     }
+    button{
+      margin-right: -100px;
+      margin-left: -100px;
+      }
     .containerButtonSubmitRequest {
       margin-top: 106px;
+      margin-left: 100px;
     }
   }
+}
+.controlPrev {
+  content: url('../../../public/assets/icons/ArrowLeftBeige.svg');
+  width: 70px;
+  margin-top: 150px;
+}
+.controlNext {
+  content: url('../../../public/assets/icons/ArrowRightBeige.svg');
+  width: 70px;
+  margin-top: 150px;
 }
 

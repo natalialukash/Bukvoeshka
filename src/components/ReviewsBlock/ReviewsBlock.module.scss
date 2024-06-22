@@ -1,13 +1,26 @@
 @import "../../App.module.scss";
-.h2{
-  height: 140px;
+.containerReviewsBlock{
+  display: grid;
+  justify-content: center;
+  h2{
+    justify-content: center;
+    height: 140px;
+  }
 }
 .containerReviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   border-radius: 100%;
   width: 1345px;
   height: 630px;
   border: 0px;
-  background-color: $lilac-color;
+  background-color: $turquoise-color;
+  button{
+    margin-right: -100px;
+    margin-left: -100px;
+    }
 }
 .reviewIcon {
 display: flex;
@@ -24,4 +37,14 @@ span{
   margin-top: 30px;
   font-family: "MontserratAlternates-Light";
 }
+}
+.controlPrev {
+  content: url("../../../public/assets/icons/ArrowLeftBeige.svg");
+  width: 70px;
+  margin-top: 100px;
+}
+.controlNext {
+  content: url("../../../public/assets/icons/ArrowRightBeige.svg");
+  width: 70px;
+  margin-top: 100px;
 }

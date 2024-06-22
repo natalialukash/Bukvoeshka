@@ -5,17 +5,17 @@ const ReviewsBlock = () => {
     {
       id: 1,
       name: "Анна И.",
-      text: "Замечательный центр, педагоги профессионалы своего дела, вкладывают душу и уделяет каждому ребенку много внимания даже на групповых занятиях. Мы ходим в центр с большим удовольсвтием уже второй год и не планируем прекращать.",
+      text: "Замечательный центр, педагоги профессионалы своего дела, вкладывают душу и уделяет каждому ребенку много внимания. Мы ходим в центр с большим удовольствием уже второй год.",
     },
     {
       id: 2,
       name: "Мария Т.",
-      text: "Рекомендую этот центр всем родителям, чьи дети нуждаются в помощи специалистов. Отдельно хочется отметить уютную атмосферу и доброжелательное отношение персонала. Мой ребенок с удовольствием посещал занятия и быстро достиг положительных результатов.",
+      text: "Рекомендую этот центр всем родителям, чьи дети нуждаются в помощи специалистов. Отдельно хочется отметить уютную атмосферу и доброжелательное отношение персонала.",
     },
     {
       id: 3,
       name: "Илья Н.",
-      text: "Хочется отметить профессионализм и опыт логопедов, их умение находить подход к каждому ребенку. Занятия проходили в игровой форме, что делало процесс обучения интересным и увлекательным для малыша.",
+      text: "Хочется отметить профессионализм и опыт логопедов, их умение находить подход к каждому ребенку. Занятия проходили в игровой форме, что делало процесс обучения интересным для малыша.",
     },
     {
       id: 4,
@@ -25,8 +25,8 @@ const ReviewsBlock = () => {
   ];
   return (
     <>
-      <section>
-        <div className={classes.h2}>
+      <section className={classes.containerReviewsBlock}>
+        <div>
           <h2>Отзывы родителей</h2>
         </div>
         <div className={classes.containerReviews}>
@@ -36,7 +36,7 @@ const ReviewsBlock = () => {
             data-bs-ride="carousel"
           >
             <button
-              className="carousel-control-prev"
+              className={`carousel-control-prev ${classes.controlPrev}`}
               type="button"
               data-bs-target="#carouselExampleControls_3"
               data-bs-slide="prev"
@@ -53,11 +53,11 @@ const ReviewsBlock = () => {
                   <div key={reviews[0].id} className={classes.containerReview}>
                     <p>{reviews[0].name}</p>
                     <div className={classes.reviewIcon}>
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
                     </div>
                     <span>{reviews[0].text}</span>
                   </div>
@@ -68,26 +68,27 @@ const ReviewsBlock = () => {
                   <div key={reviews[1].id} className={classes.containerReview}>
                     <p>{reviews[1].name}</p>
                     <div className={classes.reviewIcon}>
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+
                     </div>
                     <span>{reviews[1].text}</span>
                   </div>
                 </div>
               </div>
               <div className="carousel-item">
-                <div className={`d-block w-100 ${classes.containerReview}`}>
-                  <div key={reviews[2].id}>
+                <div className="d-block w-100">
+                  <div key={reviews[2].id} className={classes.containerReview}>
                     <p>{reviews[2].name}</p>
                     <div className={classes.reviewIcon}>
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
                     </div>
                     <span>{reviews[2].text}</span>
                   </div>
@@ -98,20 +99,20 @@ const ReviewsBlock = () => {
                   <div key={reviews[3].id} className={classes.containerReview}>
                     <p>{reviews[3].name}</p>
                     <div className={classes.reviewIcon}>
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
-                      <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src="../public/assets/icons/Star.svg" alt="" />
                     </div>
                     <span>{reviews[3].text}</span>
                   </div>
                 </div>
               </div>
-            </div>
+              </div>
 
             <button
-              className="carousel-control-next"
+              className={`carousel-control-next ${classes.controlNext}`}
               type="button"
               data-bs-target="#carouselExampleControls_3"
               data-bs-slide="next"
@@ -123,7 +124,7 @@ const ReviewsBlock = () => {
               <span className="visually-hidden">Следующий</span>
             </button>
           </div>
-        </div>
+          </div>
       </section>
     </>
   );

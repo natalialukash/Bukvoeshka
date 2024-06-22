@@ -14,7 +14,6 @@ function App() {
   
   return (
     <>
-
       <Header />
       <Banner />
       <div id="programmsList"><ProgrammsList /></div>
@@ -24,7 +23,6 @@ function App() {
       <div id="formBlock"><FormBlock /></div>
       <div id="contactsBlock"><ContactsBlock /></div>
       <Footer />
-
     </>
   );
 }

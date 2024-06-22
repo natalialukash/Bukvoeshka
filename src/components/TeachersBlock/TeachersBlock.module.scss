@@ -1,11 +1,15 @@
 @import "../../App.module.scss";
-.containerTeachers{
+.containerTeachers {
   h2 {
     height: 140px;
   }
 }
 .containerTeachersBlock {
-  margin: 0 100px 70px 100px;
+  margin: 0 200px 70px 200px;
+  button {
+    margin-right: -100px;
+    margin-left: -100px;
+  }
 }
 .containerTeachersList {
   display: grid;
@@ -21,7 +25,17 @@
   p {
     font-weight: bold;
   }
-  img{
+  img {
     margin-bottom: 20px;
-  };
+  }
+}
+.controlPrev {
+  content: url("../../../public/assets/icons/ArrowLeftBlack.svg");
+  width: 70px;
+  margin-top: 220px;
+}
+.controlNext {
+  content: url("../../../public/assets/icons/ArrowRightBlack.svg");
+  width: 70px;
+  margin-top: 220px;
 }

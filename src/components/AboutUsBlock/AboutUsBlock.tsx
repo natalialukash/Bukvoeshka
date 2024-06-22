@@ -14,7 +14,7 @@ const AboutUsBlock = () => {
             data-bs-ride="carousel"
           >
             <button
-              className="carousel-control-prev"
+              className={`carousel-control-prev ${classes.controlPrev}`}
               type="button"
               data-bs-target="#carouselExampleControls_1"
               data-bs-slide="prev"
@@ -81,7 +81,7 @@ const AboutUsBlock = () => {
             </div>
             
             <button
-              className="carousel-control-next"
+              className={`carousel-control-next ${classes.controlNext}`}
               type="button"
               data-bs-target="#carouselExampleControls_1"
               data-bs-slide="next"
