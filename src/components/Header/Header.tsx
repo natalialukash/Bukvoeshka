@@ -25,7 +25,7 @@ const Header = () => {
           <div>
             <Link to="contactsBlock">Контакты</Link>
           </div>
-          <div>+7(499) 377-37-37</div>
+          <div><a href="tel:+74993773737">+7 (499) 377-37-37</a></div>
         </div>
       </header>
     </>
