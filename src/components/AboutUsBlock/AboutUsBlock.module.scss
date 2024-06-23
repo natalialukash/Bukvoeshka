@@ -5,13 +5,14 @@
   background-color: $lilac-color;
   display: flex;
   justify-content: space-between;
+  }
+  
   .aboutUsImg {
     background-image: url(../../../public/assets/images/girl_about_us.png);
     width: 825px;
     margin-left: 150px;
     margin-top: 30px;
   }
-
   .containerAboutUsText {
     color: $beige-color;
     margin: 100px 250px 0px 0px;
@@ -19,36 +20,81 @@
     h2 {
       justify-content: left;
     }
-    .containerText {
-      margin-top: 76px;
-      
-      p {
-        font-family: "MontserratAlternates-Regular";
-        font-size: $font-medium;
-      }
-      span {
-        font-family: "MontserratAlternates-Light";
-        font-size: $font-small;
-      }
-    }
-    button{
+    button {
       margin-right: -100px;
       margin-left: -100px;
-      }
-    .containerButtonSubmitRequest {
-      margin-top: 106px;
-      margin-left: 100px;
+    }
+  .containerText {
+    margin-top: 76px;
+
+    p {
+      font-family: "MontserratAlternates-Regular";
+      font-size: $font-medium;
+    }
+    span {
+      font-family: "MontserratAlternates-Light";
+      font-size: $font-small;
     }
   }
 }
+.containerButtonSubmitRequest {
+  margin-top: 106px;
+  margin-left: 100px;
+}
 .controlPrev {
-  content: url('../../../public/assets/icons/ArrowLeftBeige.svg');
+  content: url("../../../public/assets/icons/ArrowLeftBeige.svg");
   width: 70px;
   margin-top: 150px;
 }
 .controlNext {
-  content: url('../../../public/assets/icons/ArrowRightBeige.svg');
+  content: url("../../../public/assets/icons/ArrowRightBeige.svg");
   width: 70px;
   margin-top: 150px;
 }
-
+@media screen and (max-width: 430px) {
+  .containerAboutUs {
+    height: 928px;
+    background-image: url("../../../public/assets/images/girl_about_us.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: 50px;
+  }
+  .containerAboutUsText {
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 264px;
+    h2 {
+      font-size: $font-small;
+    }
+    button {
+      margin-right: -50px;
+      margin-left: -50px;
+    }
+    .containerText {
+      margin-top: 30px;
+      height: 430px;
+      p {
+        font-size: $font-x-small;
+      }
+      span {
+        font-size: $font-x-small;
+      }
+    }
+  }
+  .containerButtonSubmitRequest {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  .aboutUsImg{
+    display: none;
+  }
+  .controlPrev {
+    width: 40px;
+    margin-top: 150px;
+  }
+  .controlNext {
+    width: 40px;
+    margin-top: 150px;
+  }
+}

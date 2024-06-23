@@ -5,16 +5,15 @@
   justify-content: space-between;
   height: 600px;
   background-color: $turquoise-color;
-  .containerBannerText {
-    display: grid;
-    grid-template-rows: fit-content(84px) 1fr fit-content(62px);
-    align-items: center;
-    font-family: "MontserratAlternates-Regular";
-    font-size: $font-large;
-    color: $text-color;
-    margin: 100px 0px 100px 150px;
-    line-height: 150%;
-  }
+}
+.containerBannerText {
+  display: grid;
+  grid-template-rows: fit-content(84px) 1fr fit-content(62px);
+  align-items: center;
+  font-family: "MontserratAlternates-Regular";
+  font-size: $font-large;
+  margin: 100px 0px 100px 150px;
+  line-height: 150%;
 }
 .bannerImg {
   background-image: url(../../../public/assets/images/girl_banner.png);
@@ -25,5 +24,28 @@
       left: 200px;
       top: 140px;
       width: 90px;  
+  }
+}
+@media screen and (max-width: 430px) {
+  .containerBanner {
+    display: grid;
+    height: 653px;
+  }
+  .containerBannerText {
+    display: grid;
+    gap: 30px;
+    font-size: $font-small;
+    margin: 24px 0 0 24px;
+  }
+  .bannerImg {
+    background-image: url("../../../public/assets/images/girl_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 360px;   
+    margin-left: -100px;
+    img{
+      display: none;
+    }
   }
 }

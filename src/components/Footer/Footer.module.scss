@@ -6,5 +6,16 @@ footer {
   height: 100px;
   color: $gray-color;
   font-family: "MontserratAlternates-Regular";
+  font-size: $font-small;
   align-items: flex-end;
+}
+@media screen and (max-width: 430px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 24px;
+  }
 }

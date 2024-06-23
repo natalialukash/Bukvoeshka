@@ -39,3 +39,42 @@
   width: 70px;
   margin-top: 220px;
 }
+@media screen and (max-width: 430px) {
+  .containerTeachers {
+    h2 {
+      height: 70px;
+      font-size: $font-small;
+    }
+  }
+  .containerTeachersBlock {
+    margin: 0 70px 0 70px;
+    button {
+      margin-right: -50px;
+      margin-left: -50px;
+    }
+  }
+  .containerTeachersList {
+    display: inline-block;
+  }
+  .containerTeacher {
+    display: grid;
+    font-size: $font-x-small;
+    height: 450px;
+    p {
+      font-weight: bold;
+      margin: 0;
+    }
+    img {
+      width: 255px;
+      margin-bottom: 0;
+    }
+  }
+  .controlPrev {
+    width: 40px;
+    margin-top:  600px;
+  }
+  .controlNext {
+    width: 40px;
+    margin-top: 600px;
+  }
+}

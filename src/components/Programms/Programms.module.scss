@@ -1,21 +1,42 @@
 @import "../../App.module.scss";
 
-.programm_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap:30px;
-    justify-items: center;
-    margin: 0px 150px 70px 150px;
-    font-family: "MontserratAlternates-Regular";
+.programm_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  justify-items: center;
+  margin: 0px 150px 70px 150px;
+  font-family: "MontserratAlternates-Regular";
 }
-.programmgroup_container{
-    display: grid;
+.programmgroup_container {
+  display: grid;
+  justify-content: left;
+  font-size: $font-medium;
+  h2 {
+    height: 140px;
     justify-content: left;
-    font-size: $font-medium;
-    h2{
-        height: 140px;
-    }
-    span{
-        margin-top: 30px;
-    }
+  }
+  span {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 430px) {
+    .programm_container {
+        display: inline-block;
+        margin: 0px 24px 30px 24px;
+      }
+      .programmgroup_container {
+        font-size: $font-x-small;
+        h2 {
+          height: 80px;
+          font-size: $font-small;
+        }
+        img{
+            width: 300px;
+            height: 200px;
+        }
+        span {
+            margin-top: 10px;
+          }
+      }
 }

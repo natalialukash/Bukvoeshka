@@ -1,27 +1,40 @@
 @import "../../App.module.scss";
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    font-size: $font-medium;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  font-size: $font-medium;
+  color: $text-color;
+  font-family: "MontserratAlternates-Regular";
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1125px;
+  div:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  a {
     color: $text-color;
-    font-family: "MontserratAlternates-Regular";
-    margin-left: 150px;
-    margin-right: 150px;
+  }
 }
-.containerNav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1125px;
-    div:hover{
-        font-weight: bold;
-        text-decoration: underline;
-        cursor: pointer;
-    }
-    a{
-        color: $text-color;
-    }
+
+@media screen and (max-width: 430px) {
+  .nav {
+    display: none;
+  }
+  .containerNav{
+    display: none;
+  }
+  header{
+    margin-left: 24px;
+  }
 }
+

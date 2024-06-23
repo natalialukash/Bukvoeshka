@@ -3,7 +3,6 @@
   display: grid;
   justify-content: center;
   h2{
-    justify-content: center;
     height: 140px;
   }
 }
@@ -47,4 +46,42 @@ span{
   content: url("../../../public/assets/icons/ArrowRightBeige.svg");
   width: 70px;
   margin-top: 100px;
+}
+@media screen and (max-width: 430px) {
+  .containerReviews{
+    border-radius: 0%;
+    height: 360px;
+    button {
+      margin-right: -40px;
+      margin-left: -40px;
+    }
+  }
+  .containerReviewsBlock{
+    background-color: $turquoise-color;
+    h2{
+      height: 70px;
+      font-size: $font-small;
+    }
+  }
+  .containerReview {
+    width: 280px;
+    display: grid;
+    justify-items: center;
+    font-size: $font-x-small;
+    p{
+      font-family: "MontserratAlternates-Regular";
+    }
+    span{
+      margin-top: 30px;
+      font-family: "MontserratAlternates-Light";
+    }
+    }
+    .controlPrev {
+      width: 40px;
+      margin-top: 150px;
+    }
+    .controlNext {
+      width: 40px;
+      margin-top: 150px;
+    }
 }

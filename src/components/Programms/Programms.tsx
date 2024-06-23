@@ -4,28 +4,29 @@ const ProgrammsList = () => {
   const programmGroup = [
     {
       id: 1,
+      h2: "Групповые программы",
       name: "Развитие речи",
       imageUrl: "../public/assets/images/programm_group_1.png",
     },
     {
       id: 2,
-      h2: "Групповые программы",
       name: "Подготовка к школе",
       imageUrl: "../public/assets/images/programm_group_2.png",
     },
     {
       id: 3,
       name: "Коммуникативная группа",
+      
       imageUrl: "../public/assets/images/programm_group_3.png",
     },
     {
       id: 4,
+      h2: "Индивидуальные программы",
       name: "Развитие речи",
       imageUrl: "../public/assets/images/programm_individual_1.png",
     },
     {
       id: 5,
-      h2: "Индивидуальные программы",
       name: "Коррекция речи",
       imageUrl: "../public/assets/images/programm_individual_2.png",
     },
@@ -36,12 +37,12 @@ const ProgrammsList = () => {
     },
     {
       id: 7,
+      h2: "Психологические направления",
       name: "Нейропсихологические занятия",
       imageUrl: "../public/assets/images/programm_psychology_1.png",
     },
     {
       id: 8,
-      h2: "Психологические направления",
       name: 'Нейро-класс "Буквоешка"',
       imageUrl: "../public/assets/images/programm_psychology_2.png",
     },
