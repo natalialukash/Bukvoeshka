@@ -43,3 +43,19 @@
   border-color: $turquoise-color;
   font-weight: bold;
 }
+@media screen and (max-width: 430px) {
+  .buttonSend {
+    max-width: 382px;
+    font-size: $font-x-small;
+    height: 60px;
+  }
+  .buttonRegistration {
+    width: 230px;
+    font-size: $font-x-small;
+  }
+  .buttonSubmitRequest {
+    width: 272px;
+    height: 60px;
+    font-size: $font-x-small;
+  }
+}

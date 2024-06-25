@@ -10,3 +10,10 @@
     padding-left: 36px;
     margin-bottom: 30px;
 }
+@media screen and (max-width: 430px) {
+    .formControl{
+    max-width: 382px;
+    font-size: $font-x-small;
+    height: 60px;
+    }
+}
