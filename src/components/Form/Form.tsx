@@ -1,49 +1,51 @@
 import { useState } from "react";
-import ButtonSend from "../Buttons/ButtonSend";
 import classes from "./Form.module.scss";
+import ButtonSend from "../Buttons/ButtonSend";
 
 export const Form = () => {
-  const [state, setState] = useState({
+  const initialFormState = {
     name: "",
     telephone: "",
-  });
+  };
+  const [enteredForm, setEnteredForm] = useState(initialFormState);
 
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
-    setState((prevProps) => ({
-      ...prevProps,
+  const formChangeHandler = (name, value) => {
+    setEnteredForm((prevState) => ({
+      ...prevState,
       [name]: value,
     }));
   };
 
-  const handleSubmit = (event) => {
+  const submitHandler = (event) => {
     event.preventDefault();
-    console.log(state);
+    setEnteredForm(initialFormState);
   };
 
   return (
     <div className={classes.containerForm}>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={submitHandler}>
         <div>
           <label></label>
           <input
+            value={enteredForm.name}
+            onChange={(e) => formChangeHandler("name", e.target.value)}
             type="text"
             name="name"
+            id="name"
             placeholder="Ваше имя"
-            value={state.name}
             className={classes.formControl}
-            onChange={handleInputChange}
           />
         </div>
         <div>
           <label></label>
           <input
+            value={enteredForm.telephone}
+            onChange={(e) => formChangeHandler("telephone", e.target.value)}
             type="text"
             name="telephone"
+            id="telehone"
             placeholder="Телефон"
-            value={state.telephone}
             className={classes.formControl}
-            onChange={handleInputChange}
           />
         </div>
         <div>
