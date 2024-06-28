@@ -53,11 +53,11 @@ const ReviewsBlock = () => {
                   <div key={reviews[0].id} className={classes.containerReview}>
                     <p>{reviews[0].name}</p>
                     <div className={classes.reviewIcon}>
-                    <img src={"../assets/icons/Star.svg"} alt="" />
-                    <img src={"../assets/icons/Star.svg"} alt="" />
-                    <img src={"../assets/icons/Star.svg"} alt="" />
-                    <img src={"../assets/icons/Star.svg"} alt="" />
-                    <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
                     </div>
                     <span>{reviews[0].text}</span>
                   </div>
@@ -68,12 +68,11 @@ const ReviewsBlock = () => {
                   <div key={reviews[1].id} className={classes.containerReview}>
                     <p>{reviews[1].name}</p>
                     <div className={classes.reviewIcon}>
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
                     </div>
                     <span>{reviews[1].text}</span>
                   </div>
@@ -84,11 +83,11 @@ const ReviewsBlock = () => {
                   <div key={reviews[2].id} className={classes.containerReview}>
                     <p>{reviews[2].name}</p>
                     <div className={classes.reviewIcon}>
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
                     </div>
                     <span>{reviews[2].text}</span>
                   </div>
@@ -99,17 +98,17 @@ const ReviewsBlock = () => {
                   <div key={reviews[3].id} className={classes.containerReview}>
                     <p>{reviews[3].name}</p>
                     <div className={classes.reviewIcon}>
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
+                      <img src={"../assets/icons/Star.svg"} alt="" />
                     </div>
                     <span>{reviews[3].text}</span>
                   </div>
                 </div>
               </div>
-              </div>
+            </div>
 
             <button
               className={`carousel-control-next ${classes.controlNext}`}
@@ -124,7 +123,7 @@ const ReviewsBlock = () => {
               <span className="visually-hidden">Следующий</span>
             </button>
           </div>
-          </div>
+        </div>
       </section>
     </>
   );
