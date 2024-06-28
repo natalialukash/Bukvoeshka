@@ -53,11 +53,11 @@ const ReviewsBlock = () => {
                   <div key={reviews[0].id} className={classes.containerReview}>
                     <p>{reviews[0].name}</p>
                     <div className={classes.reviewIcon}>
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
-                    <img src="../public/assets/icons/Star.svg" alt="" />
+                    <img src={"../assets/icons/Star.svg"} alt="" />
+                    <img src={"../assets/icons/Star.svg"} alt="" />
+                    <img src={"../assets/icons/Star.svg"} alt="" />
+                    <img src={"../assets/icons/Star.svg"} alt="" />
+                    <img src={"../assets/icons/Star.svg"} alt="" />
                     </div>
                     <span>{reviews[0].text}</span>
                   </div>

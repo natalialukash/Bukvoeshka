@@ -36,7 +36,7 @@ const ContactsBlock = () => {
             </div>
             <div className={classes.containerContact}>
               <div>
-                <img src="./assets/icons/mobile_phone.svg" alt="mobile_phone" />
+                <img src={"../assets/icons/mobile_phone.svg"} alt="mobile_phone" />
               </div>
               <div className={classes.containerText}>
                 <p>Позвонить:</p>
@@ -45,7 +45,7 @@ const ContactsBlock = () => {
             </div>
             <div className={classes.containerContact}>
               <div>
-                <img src="./assets/icons/email.svg" alt="email" />
+                <img src={"../assets/icons/email.svg"} alt="email" />
               </div>
               <div className={classes.containerText}>
                 <p>Написать письмо:</p>

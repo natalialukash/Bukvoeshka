@@ -4,37 +4,37 @@ const TeachersBlock = () => {
   const teachers = [
     {
       id: 1,
-      imageUrl: "../../../public/assets/images/1teacher_Il'ina.png",
+      imageUrl: "../assets/images/1teacher_Il'ina.png",
       name: "Ильина Алёна Викторовна",
       position: "Логопед",
     },
     {
       id: 2,
-      imageUrl: "../../../public/assets/images/2teacher_Vysotckaya.png",
+      imageUrl: "../assets/images/2teacher_Vysotckaya.png",
       name: "Высоцкая Анна Александровна",
       position: "Психолог",
     },
     {
       id: 3,
-      imageUrl: "../../../public/assets/images/3teacher_Goryunova.png",
+      imageUrl: "../assets/images/3teacher_Goryunova.png",
       name: "Горюнова Ульяна Ильинична",
       position: "Педагог по рисованию",
     },
     {
       id: 4,
-      imageUrl: "../../../public/assets/images/4teacher_Tihonova.png",
+      imageUrl: "../assets/images/4teacher_Tihonova.png",
       name: "Тихонова Вера Дмитриевна",
       position: "Нейрологопед",
     },
     {
       id: 5,
-      imageUrl: "../../../public/assets/images/5teacher_Kozyreva.png",
+      imageUrl: "../assets/images/5teacher_Kozyreva.png",
       name: "Козырева Мария Ивановна",
       position: "Логопед-психолог",
     },
     {
       id: 6,
-      imageUrl: "../../../public/assets/images/6teacher_Tsareva.png",
+      imageUrl: "../assets/images/6teacher_Tsareva.png",
       name: "Царева Анастасия Васильевна",
       position: "Логопед, руководитель центра",
     },

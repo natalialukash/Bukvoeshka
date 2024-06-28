@@ -8,7 +8,7 @@
   }
   
   .aboutUsImg {
-    background-image: url(../../../public/assets/images/girl_about_us.png);
+    background-image: url("../assets/images/girl_about_us.png");
     width: 825px;
     margin-left: 150px;
     margin-top: 30px;
@@ -42,19 +42,19 @@
   margin-left: 100px;
 }
 .controlPrev {
-  content: url("../../../public/assets/icons/ArrowLeftBeige.svg");
+  content: url("../assets/icons/ArrowLeftBeige.svg");
   width: 70px;
   margin-top: 150px;
 }
 .controlNext {
-  content: url("../../../public/assets/icons/ArrowRightBeige.svg");
+  content: url("../assets/icons/ArrowRightBeige.svg");
   width: 70px;
   margin-top: 150px;
 }
 @media screen and (max-width: 430px) {
   .containerAboutUs {
     height: 928px;
-    background-image: url("../../../public/assets/images/girl_about_us.png");
+    background-image: url("../assets/images/girl_about_us.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: bottom;
