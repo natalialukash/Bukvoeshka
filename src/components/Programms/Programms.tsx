@@ -56,7 +56,7 @@ const ProgrammsList = () => {
     return (
       <div key={programmGroup.id} className={classes.programmgroup_container}>
         <h2>{programmGroup.h2}</h2>
-        <img src={`${programmGroup.imageUrl}`} width={520} height={360}></img>
+        <img src={`${programmGroup.imageUrl}`} width={300} height={200}></img>
         <span>{programmGroup.name}</span>
       </div>
     );

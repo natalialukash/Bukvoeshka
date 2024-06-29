@@ -109,7 +109,6 @@ const ReviewsBlock = () => {
                 </div>
               </div>
             </div>
-
             <button
               className={`carousel-control-next ${classes.controlNext}`}
               type="button"

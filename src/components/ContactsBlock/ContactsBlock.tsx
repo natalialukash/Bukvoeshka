@@ -11,8 +11,8 @@ const ContactsBlock = () => {
           <div>
             <iframe
               src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad6ee1870aa6456445a2cc16fd822b3c4e2e644f8ffc7a71472c7ab88d28b2abf&amp;source=constructor"
-              width="797"
-              height="674"
+              width="500"
+              height="500"
             ></iframe>
           </div>
           <div className={classes.containerContactInformation}>
